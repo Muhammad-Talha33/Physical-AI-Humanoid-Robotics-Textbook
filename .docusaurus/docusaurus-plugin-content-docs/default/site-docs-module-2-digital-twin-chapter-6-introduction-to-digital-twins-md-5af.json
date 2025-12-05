@@ -5,20 +5,20 @@
   "source": "@site/docs/module2-digital-twin/chapter6-introduction-to-digital-twins.md",
   "sourceDirName": "module2-digital-twin",
   "slug": "/module2-digital-twin/chapter6-introduction-to-digital-twins",
-  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter6-introduction-to-digital-twins",
+  "permalink": "/docs/module2-digital-twin/chapter6-introduction-to-digital-twins",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module2-digital-twin/chapter6-introduction-to-digital-twins.md",
+  "editUrl": "/docs/module2-digital-twin/chapter6-introduction-to-digital-twins.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 10: Building Realistic Simulation Environments",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter10-building-realistic-environments"
+    "permalink": "/docs/module2-digital-twin/chapter10-building-realistic-environments"
   },
   "next": {
     "title": "Chapter 7: Gazebo Simulation Fundamentals",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals"
+    "permalink": "/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals"
   }
 }

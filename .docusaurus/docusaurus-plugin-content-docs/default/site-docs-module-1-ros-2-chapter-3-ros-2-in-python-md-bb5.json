@@ -5,20 +5,20 @@
   "source": "@site/docs/module1-ros2/chapter3-ros2-in-python.md",
   "sourceDirName": "module1-ros2",
   "slug": "/module1-ros2/chapter3-ros2-in-python",
-  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter3-ros2-in-python",
+  "permalink": "/docs/module1-ros2/chapter3-ros2-in-python",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module1-ros2/chapter3-ros2-in-python.md",
+  "editUrl": "/docs/module1-ros2/chapter3-ros2-in-python.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2: ROS 2 Core Concepts",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter2-ros2-core-concepts"
+    "permalink": "/docs/module1-ros2/chapter2-ros2-core-concepts"
   },
   "next": {
     "title": "Chapter 4: Robot Modeling with URDF for Humanoids",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter4-robot-modeling-urdf"
+    "permalink": "/docs/module1-ros2/chapter4-robot-modeling-urdf"
   }
 }

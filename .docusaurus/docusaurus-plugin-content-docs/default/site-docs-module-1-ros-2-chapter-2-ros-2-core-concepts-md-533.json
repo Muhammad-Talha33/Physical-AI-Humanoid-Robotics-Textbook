@@ -5,20 +5,20 @@
   "source": "@site/docs/module1-ros2/chapter2-ros2-core-concepts.md",
   "sourceDirName": "module1-ros2",
   "slug": "/module1-ros2/chapter2-ros2-core-concepts",
-  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter2-ros2-core-concepts",
+  "permalink": "/docs/module1-ros2/chapter2-ros2-core-concepts",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module1-ros2/chapter2-ros2-core-concepts.md",
+  "editUrl": "/docs/module1-ros2/chapter2-ros2-core-concepts.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Introduction to ROS 2",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter1-introduction-to-ros2"
+    "permalink": "/docs/module1-ros2/chapter1-introduction-to-ros2"
   },
   "next": {
     "title": "Chapter 3: ROS 2 in Python (rclpy)",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter3-ros2-in-python"
+    "permalink": "/docs/module1-ros2/chapter3-ros2-in-python"
   }
 }

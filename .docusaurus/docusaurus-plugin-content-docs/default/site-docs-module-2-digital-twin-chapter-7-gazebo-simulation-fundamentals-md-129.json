@@ -5,20 +5,20 @@
   "source": "@site/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals.md",
   "sourceDirName": "module2-digital-twin",
   "slug": "/module2-digital-twin/chapter7-gazebo-simulation-fundamentals",
-  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals",
+  "permalink": "/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals.md",
+  "editUrl": "/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 6: Introduction to Digital Twins",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter6-introduction-to-digital-twins"
+    "permalink": "/docs/module2-digital-twin/chapter6-introduction-to-digital-twins"
   },
   "next": {
     "title": "Chapter 8: Simulated Sensors in Gazebo",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo"
+    "permalink": "/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo"
   }
 }

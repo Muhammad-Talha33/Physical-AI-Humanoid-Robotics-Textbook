@@ -5,20 +5,20 @@
   "source": "@site/docs/module2-digital-twin/chapter9-unity-visualization-robotics.md",
   "sourceDirName": "module2-digital-twin",
   "slug": "/module2-digital-twin/chapter9-unity-visualization-robotics",
-  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter9-unity-visualization-robotics",
+  "permalink": "/docs/module2-digital-twin/chapter9-unity-visualization-robotics",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module2-digital-twin/chapter9-unity-visualization-robotics.md",
+  "editUrl": "/docs/module2-digital-twin/chapter9-unity-visualization-robotics.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 8: Simulated Sensors in Gazebo",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo"
+    "permalink": "/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo"
   },
   "next": {
     "title": "Chapter 11: Introduction to NVIDIA Isaac Platform",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac"
+    "permalink": "/docs/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac"
   }
 }

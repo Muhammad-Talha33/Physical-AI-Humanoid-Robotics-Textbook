@@ -5,16 +5,16 @@
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/",
+  "permalink": "/docs/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/index.md",
+  "editUrl": "/docs/index.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Chapter 1: Introduction to ROS 2",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter1-introduction-to-ros2"
+    "permalink": "/docs/module1-ros2/chapter1-introduction-to-ros2"
   }
 }

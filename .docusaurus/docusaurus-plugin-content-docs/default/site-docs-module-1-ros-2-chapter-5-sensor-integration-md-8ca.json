@@ -5,20 +5,20 @@
   "source": "@site/docs/module1-ros2/chapter5-sensor-integration.md",
   "sourceDirName": "module1-ros2",
   "slug": "/module1-ros2/chapter5-sensor-integration",
-  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter5-sensor-integration",
+  "permalink": "/docs/module1-ros2/chapter5-sensor-integration",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module1-ros2/chapter5-sensor-integration.md",
+  "editUrl": "/docs/module1-ros2/chapter5-sensor-integration.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 4: Robot Modeling with URDF for Humanoids",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter4-robot-modeling-urdf"
+    "permalink": "/docs/module1-ros2/chapter4-robot-modeling-urdf"
   },
   "next": {
     "title": "Chapter 10: Building Realistic Simulation Environments",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter10-building-realistic-environments"
+    "permalink": "/docs/module2-digital-twin/chapter10-building-realistic-environments"
   }
 }

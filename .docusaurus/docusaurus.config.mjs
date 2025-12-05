@@ -29,7 +29,7 @@ export default {
     "experimental_router": "browser"
   },
   "url": "https://Muhammad-Talha33.github.io",
-  "baseUrl": "/Physical-AI-Humanoid-Robotics-Textbook/",
+  "baseUrl": "/",
   "organizationName": "Muhammad-Talha33",
   "projectName": "Physical-AI-Humanoid-Robotics-Textbook",
   "onBrokenLinks": "throw",
@@ -47,7 +47,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/"
+          "editUrl": "/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"

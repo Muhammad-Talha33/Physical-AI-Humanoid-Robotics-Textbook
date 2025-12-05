@@ -5,16 +5,16 @@
   "source": "@site/docs/module4-vla/chapter20-capstone-autonomous-humanoid.md",
   "sourceDirName": "module4-vla",
   "slug": "/module4-vla/chapter20-capstone-autonomous-humanoid",
-  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter20-capstone-autonomous-humanoid",
+  "permalink": "/docs/module4-vla/chapter20-capstone-autonomous-humanoid",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module4-vla/chapter20-capstone-autonomous-humanoid.md",
+  "editUrl": "/docs/module4-vla/chapter20-capstone-autonomous-humanoid.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 19: Multimodal Interaction",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter19-multimodal-interaction"
+    "permalink": "/docs/module4-vla/chapter19-multimodal-interaction"
   }
 }

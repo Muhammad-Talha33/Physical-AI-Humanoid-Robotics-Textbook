@@ -5,20 +5,20 @@
   "source": "@site/docs/module4-vla/chapter17-voice-to-action-pipelines.md",
   "sourceDirName": "module4-vla",
   "slug": "/module4-vla/chapter17-voice-to-action-pipelines",
-  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter17-voice-to-action-pipelines",
+  "permalink": "/docs/module4-vla/chapter17-voice-to-action-pipelines",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module4-vla/chapter17-voice-to-action-pipelines.md",
+  "editUrl": "/docs/module4-vla/chapter17-voice-to-action-pipelines.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 16: Introduction to Vision-Language-Action (VLA)",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter16-introduction-to-vla"
+    "permalink": "/docs/module4-vla/chapter16-introduction-to-vla"
   },
   "next": {
     "title": "Chapter 18: LLM-Based Cognitive Planning",
-    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter18-llm-based-cognitive-planning"
+    "permalink": "/docs/module4-vla/chapter18-llm-based-cognitive-planning"
   }
 }
