@@ -1,0 +1,24 @@
+{
+  "id": "Module 1 - ROS2/chapter5-sensor-integration",
+  "title": "Chapter 5: Sensor Integration in ROS 2",
+  "description": "Sensor integration is fundamental for any robot, especially humanoids, to perceive their environment and interact intelligently. This chapter explores how various sensors are integrated into ROS 2, focusing on the concepts of ROS 2 interfaces, message types, and the Transform (TF) tree.",
+  "source": "@site/docs/Module 1 - ROS2/chapter5-sensor-integration.md",
+  "sourceDirName": "Module 1 - ROS2",
+  "slug": "/Module 1 - ROS2/chapter5-sensor-integration",
+  "permalink": "/docs/Module 1 - ROS2/chapter5-sensor-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Module 1 - ROS2/chapter5-sensor-integration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: Robot Modeling with URDF for Humanoids",
+    "permalink": "/docs/Module 1 - ROS2/chapter4-robot-modeling-urdf"
+  },
+  "next": {
+    "title": "Welcome to Physical AI & Humanoid Robotics",
+    "permalink": "/docs/"
+  }
+}

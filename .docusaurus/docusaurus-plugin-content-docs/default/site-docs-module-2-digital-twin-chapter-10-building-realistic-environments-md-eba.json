@@ -1,0 +1,24 @@
+{
+  "id": "module2-digital-twin/chapter10-building-realistic-environments",
+  "title": "Chapter 10: Building Realistic Simulation Environments",
+  "description": "10.1 The Simulation-to-Reality Gap",
+  "source": "@site/docs/module2-digital-twin/chapter10-building-realistic-environments.md",
+  "sourceDirName": "module2-digital-twin",
+  "slug": "/module2-digital-twin/chapter10-building-realistic-environments",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter10-building-realistic-environments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module2-digital-twin/chapter10-building-realistic-environments.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 5: Sensor Integration in ROS 2",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter5-sensor-integration"
+  },
+  "next": {
+    "title": "Chapter 6: Introduction to Digital Twins",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter6-introduction-to-digital-twins"
+  }
+}

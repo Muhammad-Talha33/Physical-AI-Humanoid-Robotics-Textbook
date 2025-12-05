@@ -1,0 +1,24 @@
+{
+  "id": "module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real",
+  "title": "Chapter 15: Reinforcement Learning & Sim-to-Real",
+  "description": "15.1 Reinforcement Learning for Humanoid Control",
+  "source": "@site/docs/module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real.md",
+  "sourceDirName": "module3-ai-robot-brain",
+  "slug": "/module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 14: Navigation with Nav2",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter14-navigation-nav2"
+  },
+  "next": {
+    "title": "Chapter 16: Introduction to Vision-Language-Action (VLA)",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter16-introduction-to-vla"
+  }
+}

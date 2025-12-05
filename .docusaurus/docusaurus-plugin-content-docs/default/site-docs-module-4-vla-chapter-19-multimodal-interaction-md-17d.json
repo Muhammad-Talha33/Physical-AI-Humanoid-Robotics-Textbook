@@ -1,0 +1,24 @@
+{
+  "id": "module4-vla/chapter19-multimodal-interaction",
+  "title": "Chapter 19: Multimodal Interaction",
+  "description": "19.1 Enhancing Human-Robot Interaction with Multimodality",
+  "source": "@site/docs/module4-vla/chapter19-multimodal-interaction.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/chapter19-multimodal-interaction",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter19-multimodal-interaction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module4-vla/chapter19-multimodal-interaction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 18: LLM-Based Cognitive Planning",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter18-llm-based-cognitive-planning"
+  },
+  "next": {
+    "title": "Chapter 20: Capstone: The Autonomous Humanoid",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter20-capstone-autonomous-humanoid"
+  }
+}

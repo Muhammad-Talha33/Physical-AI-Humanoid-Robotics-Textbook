@@ -1,0 +1,24 @@
+{
+  "id": "module3-ai-robot-brain/chapter14-navigation-nav2",
+  "title": "Chapter 14: Navigation with Nav2",
+  "description": "14.1 Autonomous Navigation for Humanoid Robots",
+  "source": "@site/docs/module3-ai-robot-brain/chapter14-navigation-nav2.md",
+  "sourceDirName": "module3-ai-robot-brain",
+  "slug": "/module3-ai-robot-brain/chapter14-navigation-nav2",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter14-navigation-nav2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module3-ai-robot-brain/chapter14-navigation-nav2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 13: Isaac ROS (Accelerated Perception)",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception"
+  },
+  "next": {
+    "title": "Chapter 15: Reinforcement Learning & Sim-to-Real",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real"
+  }
+}

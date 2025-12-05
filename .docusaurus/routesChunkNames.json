@@ -1,0 +1,113 @@
+{
+  "/Physical-AI-Humanoid-Robotics-Textbook/markdown-page-9ba": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs-e78": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs-48b": {
+    "__comp": "a7bd4aaa",
+    "__props": "8323a835"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs-dbe": {
+    "__comp": "a94703ab"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/-63d": {
+    "__comp": "17896441",
+    "content": "c377a04b"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter1-introduction-to-ros2-1c9": {
+    "__comp": "17896441",
+    "content": "9dd96ce6"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter2-ros2-core-concepts-b3e": {
+    "__comp": "17896441",
+    "content": "5335df8e"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter3-ros2-in-python-f58": {
+    "__comp": "17896441",
+    "content": "bb54f2f6"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter4-robot-modeling-urdf-7b6": {
+    "__comp": "17896441",
+    "content": "7d1f13ee"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter5-sensor-integration-5d0": {
+    "__comp": "17896441",
+    "content": "8ca21f23"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter10-building-realistic-environments-934": {
+    "__comp": "17896441",
+    "content": "eba750a5"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter6-introduction-to-digital-twins-5ae": {
+    "__comp": "17896441",
+    "content": "5afdb89f"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals-933": {
+    "__comp": "17896441",
+    "content": "1298b7ea"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo-947": {
+    "__comp": "17896441",
+    "content": "141f20ca"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter9-unity-visualization-robotics-f72": {
+    "__comp": "17896441",
+    "content": "dcd48f66"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac-aa5": {
+    "__comp": "17896441",
+    "content": "77d7ddb8"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim-f74": {
+    "__comp": "17896441",
+    "content": "4606327b"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception-4d1": {
+    "__comp": "17896441",
+    "content": "3c2eebfd"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter14-navigation-nav2-426": {
+    "__comp": "17896441",
+    "content": "50b6b80f"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real-7f3": {
+    "__comp": "17896441",
+    "content": "d055873d"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter16-introduction-to-vla-f75": {
+    "__comp": "17896441",
+    "content": "5cd485dc"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter17-voice-to-action-pipelines-a5d": {
+    "__comp": "17896441",
+    "content": "eb75e95e"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter18-llm-based-cognitive-planning-87d": {
+    "__comp": "17896441",
+    "content": "3c7978b4"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter19-multimodal-interaction-0dc": {
+    "__comp": "17896441",
+    "content": "17d56e7e"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter20-capstone-autonomous-humanoid-b83": {
+    "__comp": "17896441",
+    "content": "af981839"
+  },
+  "/Physical-AI-Humanoid-Robotics-Textbook/-637": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

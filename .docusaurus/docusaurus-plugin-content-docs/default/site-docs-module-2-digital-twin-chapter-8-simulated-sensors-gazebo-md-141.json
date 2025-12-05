@@ -1,0 +1,24 @@
+{
+  "id": "module2-digital-twin/chapter8-simulated-sensors-gazebo",
+  "title": "Chapter 8: Simulated Sensors in Gazebo",
+  "description": "8.1 Why Simulate Sensors?",
+  "source": "@site/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo.md",
+  "sourceDirName": "module2-digital-twin",
+  "slug": "/module2-digital-twin/chapter8-simulated-sensors-gazebo",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 7: Gazebo Simulation Fundamentals",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals"
+  },
+  "next": {
+    "title": "Chapter 9: Unity Visualization for Robotics",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter9-unity-visualization-robotics"
+  }
+}

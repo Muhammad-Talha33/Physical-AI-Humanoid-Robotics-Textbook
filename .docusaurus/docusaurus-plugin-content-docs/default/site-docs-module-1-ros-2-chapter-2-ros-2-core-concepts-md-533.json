@@ -1,0 +1,24 @@
+{
+  "id": "module1-ros2/chapter2-ros2-core-concepts",
+  "title": "Chapter 2: ROS 2 Core Concepts",
+  "description": "This chapter delves into the fundamental building blocks of ROS 2, expanding on the overview from Chapter 1. A solid understanding of these concepts is crucial for developing robust and scalable robot applications.",
+  "source": "@site/docs/module1-ros2/chapter2-ros2-core-concepts.md",
+  "sourceDirName": "module1-ros2",
+  "slug": "/module1-ros2/chapter2-ros2-core-concepts",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter2-ros2-core-concepts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module1-ros2/chapter2-ros2-core-concepts.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: Introduction to ROS 2",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter1-introduction-to-ros2"
+  },
+  "next": {
+    "title": "Chapter 3: ROS 2 in Python (rclpy)",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter3-ros2-in-python"
+  }
+}

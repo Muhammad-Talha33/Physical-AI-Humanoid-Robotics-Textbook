@@ -1,0 +1,24 @@
+{
+  "id": "module4-vla/chapter16-introduction-to-vla",
+  "title": "Chapter 16: Introduction to Vision-Language-Action (VLA)",
+  "description": "16.1 The Convergence of Vision, Language, and Action",
+  "source": "@site/docs/module4-vla/chapter16-introduction-to-vla.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/chapter16-introduction-to-vla",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter16-introduction-to-vla",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module4-vla/chapter16-introduction-to-vla.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 15: Reinforcement Learning & Sim-to-Real",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real"
+  },
+  "next": {
+    "title": "Chapter 17: Voice-to-Action Pipelines (Whisper)",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter17-voice-to-action-pipelines"
+  }
+}

@@ -1,0 +1,1 @@
+N/A - This document is not applicable for a high-level book architecture plan. Data models will be defined within individual chapter content where relevant.

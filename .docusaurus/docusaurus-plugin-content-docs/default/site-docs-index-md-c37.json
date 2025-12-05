@@ -1,0 +1,20 @@
+{
+  "id": "index",
+  "title": "Welcome to Physical AI & Humanoid Robotics",
+  "description": "This book provides a comprehensive guide to the exciting and rapidly evolving fields of Physical AI and Humanoid Robotics. Over four modules, we will explore the foundational concepts, cutting-edge technologies, and practical applications that are shaping the future of intelligent robots.",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chapter 1: Introduction to ROS 2",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter1-introduction-to-ros2"
+  }
+}

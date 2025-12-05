@@ -1,55 +1,96 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change: None -> 1.0.0 (MAJOR - Initial comprehensive definition)
+List of modified principles: All principles defined
+Added sections: Key Standards, Constraints, Success Criteria
+Removed sections: None
+Templates requiring updates:
+  ✅ .specify/templates/plan-template.md
+  ✅ .specify/templates/spec-template.md
+  ✅ .specify/templates/tasks-template.md
+  ✅ .specify/templates/commands/*.md (No command files found)
+  ✅ README.md (File does not exist)
+  ✅ docs/quickstart.md (File does not exist)
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Technical Accuracy
+All robotics, AI, hardware, and software explanations must be aligned with verified, authoritative sources.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Educational Clarity
+Writing should be understandable for readers with undergraduate-level knowledge of computer science, robotics, or engineering.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Practical Insight
+Focus on real-world applications, engineering considerations, safety principles, and implementation details.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Modularity
+Chapters must be structured so readers can independently learn concepts like sensors, actuators, locomotion, control systems, AI models, and ethics.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Open-Source Transparency
+All code examples and diagrams must be reproducible and accessible via GitHub Pages.
 
-### [PRINCIPLE_6_NAME]
+### Future-Proofing
+Emphasize emerging trends (Physical AI, embodied intelligence, humanoid robotics, autonomous control).
 
+## Key Standards
 
-[PRINCIPLE__DESCRIPTION]
+### Factual Verification
+All technical claims must come from reliable sources such as robotics textbooks, research labs, IEEE papers, and manufacturer documentation. No speculative claims without disclaimers.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Citation Style
+Use APA style for all references. Include links to digital sources when available.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### Source Requirements
+Minimum 40% peer-reviewed research (IEEE, ACM, Nature Robotics, Science Robotics, arXiv technical papers). Remaining sources may include industrial whitepapers, engineering manuals, official documentation, and robotics lab publications.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Diagram & Code Standard
+All diagrams must be original or reproduced with permission. Code examples must be tested and runnable. Use consistent naming, formatting, and annotations.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Writing Quality
+Aim for Flesch-Kincaid Grade 9–11 for global readability. Avoid unnecessary jargon; define all technical terms. Maintain a professional, instructional tone suitable for a technical book.
+
+## Constraints
+
+### Format
+Must be published using Docusaurus and deployed to GitHub Pages. All chapters organized as markdown files under /docs.
+
+### Length
+Total content: 25,000–40,000 words (full technical book). Each chapter: 1,500–3,500 words.
+
+### Structure
+Book must include at minimum:
+- Introduction to Physical AI, 
+- History of Humanoid Robotics, 
+- Robotics Hardware (motors, actuators, sensors), 
+- Control Systems (PID, model-based, reinforcement learning, etc.),
+- Computer Vision & Perception,
+- Locomotion & Balance, Grasping & Manipulation,
+- LLMs, 
+- Neural Models & Embodied Intelligence, 
+- Ethics,
+- Safety, 
+- Future of Humanoid Robotics,
+- Practical Projects / Tutorials.
+
+### Platform and Tools Requirement
+
+- **Publishing Platform**: Docosaurus
+- **Deployment Target**: Github Pages
+- **Development Framework**: Spec-Kit Plus + Claude Code
+- **Version Control**: Git with sturctured commit history
+
+## Success Criteria
+
+### Chapter Quality
+Every chapter must: Contain accurate and peer-verified explanations, Include citations for all factual claims, Provide clear diagrams, examples, or tables, Pass plagiarism check = 0% tolerance, Use consistent writing style across all chapters.
+
+### Project Deployment
+Entire book deploys correctly on GitHub Pages via Docusaurus. All links, references, and code examples work. Chapters are clear, structured, and technically correct. Book passes internal technical review + fact check. Readability and structure meet Spec-Kit Plus standards.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution supersedes all other project practices and guidelines. Amendments to this Constitution require a documented proposal, review, and approval process, ensuring all affected stakeholders are consulted. All pull requests and code reviews must verify compliance with these principles. New principles or significant changes to existing ones will result in a MINOR or MAJOR version bump. Clarifications or minor wording changes will result in a PATCH version bump.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04

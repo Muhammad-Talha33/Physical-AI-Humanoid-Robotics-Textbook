@@ -1,0 +1,133 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "index",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1-ros2/chapter1-introduction-to-ros2",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter1-introduction-to-ros2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1-ros2/chapter2-ros2-core-concepts",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter2-ros2-core-concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1-ros2/chapter3-ros2-in-python",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter3-ros2-in-python",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1-ros2/chapter4-robot-modeling-urdf",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter4-robot-modeling-urdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module1-ros2/chapter5-sensor-integration",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter5-sensor-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2-digital-twin/chapter10-building-realistic-environments",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter10-building-realistic-environments",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2-digital-twin/chapter6-introduction-to-digital-twins",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter6-introduction-to-digital-twins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2-digital-twin/chapter7-gazebo-simulation-fundamentals",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2-digital-twin/chapter8-simulated-sensors-gazebo",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module2-digital-twin/chapter9-unity-visualization-robotics",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter9-unity-visualization-robotics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3-ai-robot-brain/chapter11-introduction-nvidia-isaac",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3-ai-robot-brain/chapter14-navigation-nav2",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter14-navigation-nav2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4-vla/chapter16-introduction-to-vla",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter16-introduction-to-vla",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4-vla/chapter17-voice-to-action-pipelines",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter17-voice-to-action-pipelines",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4-vla/chapter18-llm-based-cognitive-planning",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter18-llm-based-cognitive-planning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4-vla/chapter19-multimodal-interaction",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter19-multimodal-interaction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module4-vla/chapter20-capstone-autonomous-humanoid",
+              "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter20-capstone-autonomous-humanoid",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/Physical-AI-Humanoid-Robotics-Textbook/docs/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

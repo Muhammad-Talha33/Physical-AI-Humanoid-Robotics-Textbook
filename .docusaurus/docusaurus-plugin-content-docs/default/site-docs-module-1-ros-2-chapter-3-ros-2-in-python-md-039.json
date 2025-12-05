@@ -1,0 +1,24 @@
+{
+  "id": "Module 1-ros2/chapter3-ros2-in-python",
+  "title": "Chapter 3: ROS 2 in Python (rclpy)",
+  "description": "This chapter focuses on rclpy, the Python client library for ROS 2. Python is widely used in robotics for its readability, extensive libraries, and rapid prototyping capabilities, making it an excellent choice for interacting with ROS 2.",
+  "source": "@site/docs/Module 1-ros2/chapter3-ros2-in-python.md",
+  "sourceDirName": "Module 1-ros2",
+  "slug": "/Module 1-ros2/chapter3-ros2-in-python",
+  "permalink": "/docs/Module 1-ros2/chapter3-ros2-in-python",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Module 1-ros2/chapter3-ros2-in-python.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: ROS 2 Core Concepts",
+    "permalink": "/docs/Module 1-ros2/chapter2-ros2-core-concepts"
+  },
+  "next": {
+    "title": "Chapter 4: Robot Modeling with URDF for Humanoids",
+    "permalink": "/docs/Module 1-ros2/chapter4-robot-modeling-urdf"
+  }
+}

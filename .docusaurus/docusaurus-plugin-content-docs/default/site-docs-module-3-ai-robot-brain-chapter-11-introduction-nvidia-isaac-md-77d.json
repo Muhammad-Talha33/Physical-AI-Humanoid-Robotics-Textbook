@@ -1,0 +1,24 @@
+{
+  "id": "module3-ai-robot-brain/chapter11-introduction-nvidia-isaac",
+  "title": "Chapter 11: Introduction to NVIDIA Isaac Platform",
+  "description": "11.1 The NVIDIA Isaac Ecosystem for Robotics",
+  "source": "@site/docs/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac.md",
+  "sourceDirName": "module3-ai-robot-brain",
+  "slug": "/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 9: Unity Visualization for Robotics",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module2-digital-twin/chapter9-unity-visualization-robotics"
+  },
+  "next": {
+    "title": "Chapter 12: Perception Pipelines in Isaac Sim",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim"
+  }
+}

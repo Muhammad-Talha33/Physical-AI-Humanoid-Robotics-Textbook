@@ -1,0 +1,24 @@
+{
+  "id": "module1-ros2/chapter4-robot-modeling-urdf",
+  "title": "Chapter 4: Robot Modeling with URDF for Humanoids",
+  "description": "This chapter introduces the Unified Robot Description Format (URDF) as a crucial tool for modeling the physical structure and kinematic properties of humanoid robots within the ROS 2 ecosystem. Accurate robot models are essential for simulation, visualization, motion planning, and control.",
+  "source": "@site/docs/module1-ros2/chapter4-robot-modeling-urdf.md",
+  "sourceDirName": "module1-ros2",
+  "slug": "/module1-ros2/chapter4-robot-modeling-urdf",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter4-robot-modeling-urdf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module1-ros2/chapter4-robot-modeling-urdf.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: ROS 2 in Python (rclpy)",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter3-ros2-in-python"
+  },
+  "next": {
+    "title": "Chapter 5: Sensor Integration in ROS 2",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module1-ros2/chapter5-sensor-integration"
+  }
+}

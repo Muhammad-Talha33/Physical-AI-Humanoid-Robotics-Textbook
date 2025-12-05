@@ -1,0 +1,24 @@
+{
+  "id": "module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim",
+  "title": "Chapter 12: Perception Pipelines in Isaac Sim",
+  "description": "12.1 Building Robust Perception for Humanoid Robots",
+  "source": "@site/docs/module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim.md",
+  "sourceDirName": "module3-ai-robot-brain",
+  "slug": "/module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 11: Introduction to NVIDIA Isaac Platform",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac"
+  },
+  "next": {
+    "title": "Chapter 13: Isaac ROS (Accelerated Perception)",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception"
+  }
+}

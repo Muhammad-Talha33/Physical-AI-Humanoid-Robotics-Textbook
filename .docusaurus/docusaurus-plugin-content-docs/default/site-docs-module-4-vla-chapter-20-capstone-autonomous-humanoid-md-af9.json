@@ -1,0 +1,20 @@
+{
+  "id": "module4-vla/chapter20-capstone-autonomous-humanoid",
+  "title": "Chapter 20: Capstone: The Autonomous Humanoid",
+  "description": "20.1 Designing the End-to-End Autonomous Humanoid Pipeline",
+  "source": "@site/docs/module4-vla/chapter20-capstone-autonomous-humanoid.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/chapter20-capstone-autonomous-humanoid",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter20-capstone-autonomous-humanoid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module4-vla/chapter20-capstone-autonomous-humanoid.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 19: Multimodal Interaction",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter19-multimodal-interaction"
+  }
+}

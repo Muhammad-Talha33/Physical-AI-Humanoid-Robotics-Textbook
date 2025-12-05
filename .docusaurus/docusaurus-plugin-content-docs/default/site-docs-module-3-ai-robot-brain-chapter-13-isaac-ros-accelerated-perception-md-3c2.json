@@ -1,0 +1,24 @@
+{
+  "id": "module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception",
+  "title": "Chapter 13: Isaac ROS (Accelerated Perception)",
+  "description": "13.1 Leveraging GPU Acceleration for Robotics Perception",
+  "source": "@site/docs/module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception.md",
+  "sourceDirName": "module3-ai-robot-brain",
+  "slug": "/module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 12: Perception Pipelines in Isaac Sim",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim"
+  },
+  "next": {
+    "title": "Chapter 14: Navigation with Nav2",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module3-ai-robot-brain/chapter14-navigation-nav2"
+  }
+}

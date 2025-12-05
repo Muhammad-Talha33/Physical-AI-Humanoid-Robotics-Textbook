@@ -1,0 +1,20 @@
+{
+  "id": "Module 1-ros2/chapter1-introduction-to-ros2",
+  "title": "Chapter 1: Introduction to ROS 2",
+  "description": "What is ROS 2?",
+  "source": "@site/docs/Module 1-ros2/chapter1-introduction-to-ros2.md",
+  "sourceDirName": "Module 1-ros2",
+  "slug": "/Module 1-ros2/chapter1-introduction-to-ros2",
+  "permalink": "/docs/Module 1-ros2/chapter1-introduction-to-ros2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Module 1-ros2/chapter1-introduction-to-ros2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chapter 2: ROS 2 Core Concepts",
+    "permalink": "/docs/Module 1-ros2/chapter2-ros2-core-concepts"
+  }
+}

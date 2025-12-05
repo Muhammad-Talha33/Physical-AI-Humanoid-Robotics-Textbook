@@ -1,0 +1,24 @@
+{
+  "id": "module4-vla/chapter18-llm-based-cognitive-planning",
+  "title": "Chapter 18: LLM-Based Cognitive Planning",
+  "description": "18.1 The Rise of LLMs in Robotic Cognition",
+  "source": "@site/docs/module4-vla/chapter18-llm-based-cognitive-planning.md",
+  "sourceDirName": "module4-vla",
+  "slug": "/module4-vla/chapter18-llm-based-cognitive-planning",
+  "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter18-llm-based-cognitive-planning",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook/tree/main/docs/module4-vla/chapter18-llm-based-cognitive-planning.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 17: Voice-to-Action Pipelines (Whisper)",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter17-voice-to-action-pipelines"
+  },
+  "next": {
+    "title": "Chapter 19: Multimodal Interaction",
+    "permalink": "/Physical-AI-Humanoid-Robotics-Textbook/docs/module4-vla/chapter19-multimodal-interaction"
+  }
+}
