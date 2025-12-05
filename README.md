@@ -17,7 +17,3 @@ To start the Docusaurus development server:
 npm install
 npm start
 ```
-
-## Deployment
-
-This book is designed to be deployed to GitHub Pages.
