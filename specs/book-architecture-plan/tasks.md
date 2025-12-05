@@ -158,10 +158,10 @@ description: "Task list for Physical AI & Humanoid Robotics Book implementation"
 - [x] T055 Cross-check all diagrams and figures for accuracy and originality (docs/)
 - [x] T056 Conduct final review of APA citations and source requirements across all chapters (docs/)
 - [x] T057 Build the Docusaurus site locally to confirm no build errors (conceptual)
-- [ ] T058 Deploy the Docusaurus site to GitHub Pages (conceptual)
-- [ ] T059 Conduct final readability checks (Flesch-Kincaid) across all content (docs/)
-- [ ] T060 Perform internal technical review and fact-checking of the entire book (docs/)
-- [ ] T061 Validate all links and references in the deployed book for correctness (deployed site)
+- [x] T058 Deploy the Docusaurus site to GitHub Pages (conceptual)
+- [x] T059 Conduct final readability checks (Flesch-Kincaid) across all content (docs/)
+- [x] T060 Perform internal technical review and fact-checking of the entire book (docs/)
+- [x] T061 Validate all links and references in the deployed book for correctness (deployed site)
 
 ---
 
