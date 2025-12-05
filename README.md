@@ -5,8 +5,8 @@ A comprehensive book on Physical AI and Humanoid Robotics, covering ROS 2, Digit
 ## Project Structure
 
 - `docs/`: All book content in markdown format.
-- `docusaurus.config.js`: Docusaurus site configuration.
-- `sidebars.js`: Defines the sidebar navigation.
+- `docusaurus.config.ts`: Docusaurus site configuration.
+- `sidebars.ts`: Defines the sidebar navigation.
 - `src/css/custom.css`: Custom CSS styles.
 
 ## Development
