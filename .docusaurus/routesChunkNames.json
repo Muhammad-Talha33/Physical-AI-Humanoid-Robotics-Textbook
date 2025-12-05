@@ -1,156 +1,113 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "a7456010"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/docs-a94": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
   "/docs-080": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
   "/docs-630": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/docs/-4a8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-c-37-4d0"
+    "__comp": "17896441",
+    "content": "c377a04b"
   },
   "/docs/module1-ros2/chapter1-introduction-to-ros2-0c0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1-ros-2-chapter-1-introduction-to-ros-29-dd-e21"
+    "__comp": "17896441",
+    "content": "9dd96ce6"
   },
   "/docs/module1-ros2/chapter2-ros2-core-concepts-b15": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1-ros-2-chapter-2-ros-2-core-concepts-533-390"
+    "__comp": "17896441",
+    "content": "5335df8e"
   },
   "/docs/module1-ros2/chapter3-ros2-in-python-6a2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1-ros-2-chapter-3-ros-2-in-pythonbb-5-a66"
+    "__comp": "17896441",
+    "content": "bb54f2f6"
   },
   "/docs/module1-ros2/chapter4-robot-modeling-urdf-7b1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1-ros-2-chapter-4-robot-modeling-urdf-7-d-1-aa5"
+    "__comp": "17896441",
+    "content": "7d1f13ee"
   },
   "/docs/module1-ros2/chapter5-sensor-integration-23d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-1-ros-2-chapter-5-sensor-integration-8-ca-43c"
+    "__comp": "17896441",
+    "content": "8ca21f23"
   },
   "/docs/module2-digital-twin/chapter10-building-realistic-environments-45b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-10-building-realistic-environmentseba-0ce"
+    "__comp": "17896441",
+    "content": "eba750a5"
   },
   "/docs/module2-digital-twin/chapter6-introduction-to-digital-twins-b32": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-6-introduction-to-digital-twins-5-af-e73"
+    "__comp": "17896441",
+    "content": "5afdb89f"
   },
   "/docs/module2-digital-twin/chapter7-gazebo-simulation-fundamentals-605": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-7-gazebo-simulation-fundamentals-129-bb5"
+    "__comp": "17896441",
+    "content": "1298b7ea"
   },
   "/docs/module2-digital-twin/chapter8-simulated-sensors-gazebo-bfd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-8-simulated-sensors-gazebo-141-be9"
+    "__comp": "17896441",
+    "content": "141f20ca"
   },
   "/docs/module2-digital-twin/chapter9-unity-visualization-robotics-e2a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-2-digital-twin-chapter-9-unity-visualization-roboticsdcd-c56"
+    "__comp": "17896441",
+    "content": "dcd48f66"
   },
   "/docs/module3-ai-robot-brain/chapter11-introduction-nvidia-isaac-b15": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-ai-robot-brain-chapter-11-introduction-nvidia-isaac-77-d-571"
+    "__comp": "17896441",
+    "content": "77d7ddb8"
   },
   "/docs/module3-ai-robot-brain/chapter12-perception-pipelines-isaac-sim-5c7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-ai-robot-brain-chapter-12-perception-pipelines-isaac-sim-460-95e"
+    "__comp": "17896441",
+    "content": "4606327b"
   },
   "/docs/module3-ai-robot-brain/chapter13-isaac-ros-accelerated-perception-dd7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-ai-robot-brain-chapter-13-isaac-ros-accelerated-perception-3-c-2-9a2"
+    "__comp": "17896441",
+    "content": "3c2eebfd"
   },
   "/docs/module3-ai-robot-brain/chapter14-navigation-nav2-569": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-ai-robot-brain-chapter-14-navigation-nav-250-b-421"
+    "__comp": "17896441",
+    "content": "50b6b80f"
   },
   "/docs/module3-ai-robot-brain/chapter15-reinforcement-learning-sim-to-real-d22": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-3-ai-robot-brain-chapter-15-reinforcement-learning-sim-to-reald-05-4d5"
+    "__comp": "17896441",
+    "content": "d055873d"
   },
   "/docs/module4-vla/chapter16-introduction-to-vla-574": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-chapter-16-introduction-to-vla-5-cd-7f7"
+    "__comp": "17896441",
+    "content": "5cd485dc"
   },
   "/docs/module4-vla/chapter17-voice-to-action-pipelines-131": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-chapter-17-voice-to-action-pipelineseb-7-be6"
+    "__comp": "17896441",
+    "content": "eb75e95e"
   },
   "/docs/module4-vla/chapter18-llm-based-cognitive-planning-0e8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-chapter-18-llm-based-cognitive-planning-3-c-7-ca8"
+    "__comp": "17896441",
+    "content": "3c7978b4"
   },
   "/docs/module4-vla/chapter19-multimodal-interaction-06a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-chapter-19-multimodal-interaction-17-d-aec"
+    "__comp": "17896441",
+    "content": "17d56e7e"
   },
   "/docs/module4-vla/chapter20-capstone-autonomous-humanoid-185": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-module-4-vla-chapter-20-capstone-autonomous-humanoidaf-9-8b8"
+    "__comp": "17896441",
+    "content": "af981839"
   },
   "/-e5f": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "a7456010"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }

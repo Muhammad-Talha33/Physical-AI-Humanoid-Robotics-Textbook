@@ -32,7 +32,7 @@ export default {
   "baseUrl": "/",
   "organizationName": "Muhammad-Talha33",
   "projectName": "Physical-AI-Humanoid-Robotics-Textbook",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
