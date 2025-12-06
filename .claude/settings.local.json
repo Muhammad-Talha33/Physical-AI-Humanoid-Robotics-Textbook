@@ -3,7 +3,26 @@
     "allow": [
       "Bash(npm run build)",
       "Bash(npm run deploy)",
-      "Bash(git remote:*)"
+      "Bash(git remote:*)",
+      "Bash(test:*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \".specify/scripts/powershell/create-new-feature.ps1\" -Number 1 -ShortName \"rag-chatbot-embeddings\" -Description \"Embeddings & RAG Chatbot for Physical AI & Humanoid Robotics Book - Target audience: Readers of the book and developers integrating RAG chatbot for knowledge retrieval\" -Json)",
+      "Bash(mkdir:*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json -PathsOnly)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \".specify/scripts/powershell/setup-plan.ps1\" -Json)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File \".specify/scripts/powershell/create-phr.ps1\" -Title \"Generate tasks for RAG chatbot embeddings feature\" -Stage \"tasks\" -Feature \"001-rag-chatbot-embeddings\" -Json)",
+      "Bash(powershell.exe:*)",
+      "Bash(python scripts/run_ingestion.py:*)",
+      "Bash(timeout 15 bash:*)",
+      "Bash(python -m uvicorn:*)",
+      "Bash(powershell -Command \"Get-NetTCPConnection -LocalPort 8000 -State Listen | Select-Object -ExpandProperty OwningProcess | ForEach-Object { Stop-Process -Id $_-Force }\")",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill //F //PID 10080)",
+      "Bash(timeout 20 bash -c:*)",
+      "Bash(timeout 30 bash -c 'curl -X POST http://localhost:8000/api/v1/chat/query -H \"\"Content-Type: application/json\"\" -d \"\"{\\\"\"query\\\"\": \\\"\"What is ROS 2?\\\"\"}\"\"')",
+      "Bash(python:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []
