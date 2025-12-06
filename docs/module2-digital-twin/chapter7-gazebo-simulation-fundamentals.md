@@ -428,4 +428,4 @@ In the next chapter, we will explore how to simulate realistic sensors (LiDAR, c
 *   [Gazebo Official Documentation](https://gazebosim.org/docs)
 *   [ROS 2 + Gazebo Integration Guide](https://github.com/gazebosim/ros_gz)
 *   [SDF Format Specification](http://sdformat.org/)
-*   Koenig, N., & Howard, A. (2004). "Design and use paradigms for Gazebo, an open-source multi-robot simulator." *IEEE/RSJ International Conference on Intelligent Robots and Systems*.
+*   [Koenig, N., & Howard, A. (2004). "Design and use paradigms for Gazebo, an open-source multi-robot simulator." *IEEE/RSJ International Conference on Intelligent Robots and Systems*](https://ieeexplore.ieee.org/document/1389727).
