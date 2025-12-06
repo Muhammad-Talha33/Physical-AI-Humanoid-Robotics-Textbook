@@ -573,7 +573,6 @@ In the next chapter, we will explore Unity as an alternative visualization platf
 
 ## Further Reading
 
-*   [Gazebo Sensor Documentation](https://gazebosim.org/api/sensors/6.0/index.html)
+*   [Gazebo Sensor Documentation](https://gazebosim.org/docs/latest/sensors/)
 *   [ROS 2 Sensor Messages](https://github.com/ros2/common_interfaces/tree/rolling/sensor_msgs)
-*   Koenig, N., & Howard, A. (2004). "Design and use paradigms for Gazebo, an open-source multi-robot simulator." *IEEE/RSJ International Conference on Intelligent Robots and Systems*.
-*   Thrun, S., Burgard, W., & Fox, D. (2005). *Probabilistic Robotics*. MIT Press. (Chapter on sensor models)
+*   [Thrun, S., Burgard, W., & Fox, D. (2005). *Probabilistic Robotics*. (Chapter on sensor models)](https://docs.ufpr.br/~danielsantos/ProbabilisticRobotics.pdf)
