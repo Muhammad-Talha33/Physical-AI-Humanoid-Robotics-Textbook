@@ -42,7 +42,9 @@ class ResponseGenerator:
             Dict with response_text, grounding_status, and token usage
         """
         # Check if we have sufficient context
-        if not context or len(context.strip()) < 50:
+        # Reduced minimum from 50 to 20 chars to handle shorter but valid contexts
+        if not context or len(context.strip()) < 20:
+            logger.warning("Insufficient context", context_length=len(context.strip()) if context else 0)
             return {
                 "response_text": self._insufficient_context_message(),
                 "grounding_status": "insufficient_context",
@@ -108,25 +110,34 @@ class ResponseGenerator:
 
 CRITICAL RULES:
 1. Answer ONLY based on the provided context from the book
-2. If the context doesn't contain enough information to answer, say "I cannot find information about this in the book content"
-3. Always cite the source sections when providing information
-4. Do not make assumptions or add information not present in the context
-5. Be concise and direct in your answers
-6. Use technical terms accurately as they appear in the book
+2. If you can answer even partially from the context, provide that answer
+3. Only say "I cannot find information about this" if the context is truly irrelevant
+4. Always cite the source sections when providing information (use Source 1, Source 2, etc.)
+5. Do not make assumptions or add information not present in the context
+6. Be concise and direct in your answers
+7. Use technical terms accurately as they appear in the book
+8. If the question uses different wording than the book (e.g., "ros2" vs "ROS 2"), still answer if the meaning is clear
 
 Your goal is to help readers understand the book content, not to provide general knowledge about robotics."""
 
     def _build_user_message(self, query: str, context: str) -> str:
         """Build user message with context and query."""
-        return f"""Context from the book:
+        # Normalize the query to improve matching
+        query_normalized = query.strip()
+
+        return f"""Context from the book (numbered sources):
 
 {context}
 
 ---
 
-Question: {query}
+Question: {query_normalized}
 
-Please answer based ONLY on the context above. If the context doesn't contain the answer, say so."""
+Instructions:
+- Answer based on the context above
+- Cite sources using (Source 1), (Source 2), etc.
+- If the question uses informal language (like "ros2" for "ROS 2"), answer based on the technical content
+- Only say you cannot find information if the context is truly unrelated to the question"""
 
     def _validate_grounding(self, response: str, context: str) -> str:
         """
