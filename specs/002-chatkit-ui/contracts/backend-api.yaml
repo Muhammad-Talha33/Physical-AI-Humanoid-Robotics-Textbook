@@ -1,0 +1,208 @@
+openapi: 3.0.3
+info:
+  title: RAG Chatbot Backend API
+  description: Backend API for Physical AI & Humanoid Robotics Textbook chatbot
+  version: 1.0.0
+  contact:
+    name: Backend API Support
+    url: https://physical-ai-humanoid-robotics-textbook-production-3516.up.railway.app
+
+servers:
+  - url: https://physical-ai-humanoid-robotics-textbook-production-3516.up.railway.app
+    description: Production backend (Railway deployment)
+
+paths:
+  /api/v1/chat/query:
+    post:
+      summary: Send chat query to RAG backend
+      description: |
+        Processes user query using RAG (Retrieval-Augmented Generation) with optional selected text context.
+        Backend retrieves relevant book content, generates AI response, and returns answer with citations.
+      operationId: chatQuery
+      tags:
+        - Chat
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatQueryRequest'
+            examples:
+              normalQuery:
+                summary: Standard question without text selection
+                value:
+                  query: "What is ROS 2?"
+                  sessionId: "550e8400-e29b-41d4-a716-446655440000"
+              contextQuery:
+                summary: Question with selected text context
+                value:
+                  query: "Explain this in more detail"
+                  sessionId: "550e8400-e29b-41d4-a716-446655440000"
+                  selected_context: "Robot Operating System (ROS) is a flexible framework for writing robot software."
+      responses:
+        '200':
+          description: Successful query response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatQueryResponse'
+              examples:
+                withCitations:
+                  summary: Response with citations
+                  value:
+                    answer: "ROS 2 is the next generation of Robot Operating System, designed for production robotics applications with improved real-time performance, security, and multi-robot systems support."
+                    citations:
+                      - chapter: "Introduction to Physical AI"
+                        section: "What is ROS 2?"
+                        url: "/docs/intro/what-is-ros2"
+                      - chapter: "Control Systems"
+                        section: "ROS 2 Control Architecture"
+                        url: "/docs/control/ros2-architecture"
+                withoutCitations:
+                  summary: Response without citations
+                  value:
+                    answer: "ROS 2 builds upon the lessons learned from ROS 1, providing a more robust and flexible framework for modern robotics development."
+        '400':
+          description: Bad request (invalid query, missing sessionId, etc.)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatErrorResponse'
+              examples:
+                missingQuery:
+                  summary: Missing query field
+                  value:
+                    error: "Missing required field: query"
+                    code: 400
+                invalidSessionId:
+                  summary: Invalid sessionId format
+                  value:
+                    error: "Invalid sessionId format (expected UUID v4)"
+                    code: 400
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatErrorResponse'
+              examples:
+                serverError:
+                  summary: Generic server error
+                  value:
+                    error: "Internal server error occurred while processing query"
+                    code: 500
+        '503':
+          description: Service unavailable (backend offline, database unreachable, etc.)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatErrorResponse'
+              examples:
+                serviceUnavailable:
+                  summary: Backend service offline
+                  value:
+                    error: "Service temporarily unavailable. Please try again later."
+                    code: 503
+
+components:
+  schemas:
+    ChatQueryRequest:
+      type: object
+      required:
+        - query
+        - sessionId
+      properties:
+        query:
+          type: string
+          description: User's question or prompt
+          minLength: 1
+          maxLength: 1000
+          example: "What is ROS 2?"
+        sessionId:
+          type: string
+          description: Unique session identifier (UUID v4)
+          format: uuid
+          example: "550e8400-e29b-41d4-a716-446655440000"
+        selected_context:
+          type: string
+          description: Optional text selected by user for context-aware response
+          maxLength: 2000
+          example: "Robot Operating System (ROS) is a flexible framework for writing robot software."
+
+    ChatQueryResponse:
+      type: object
+      required:
+        - response
+      properties:
+        session_id:
+          type: string
+          description: Session identifier
+          example: "e0ab3004-2b50-4046-8079-364fac3d2f38"
+        query_id:
+          type: string
+          description: Query identifier
+          example: "82ac3563-b81f-45a3-83bd-389b2b8e7d3c"
+        response:
+          type: string
+          description: AI-generated response to user's query
+          example: "ROS 2 is a flexible framework for writing robot software that includes tools, libraries, and conventions."
+        citations:
+          type: array
+          description: List of book content sources used to generate response
+          items:
+            $ref: '#/components/schemas/Citation'
+        processing_time_ms:
+          type: integer
+          description: Time taken to process the query in milliseconds
+          example: 5108
+        grounding_status:
+          type: string
+          description: Status of grounding in source documents
+          example: "grounded"
+
+    Citation:
+      type: object
+      required:
+        - chapter
+        - section
+        - chunk_id
+      properties:
+        chapter:
+          type: string
+          description: Chapter file path
+          example: "..\\docs\\module1-ros2\\chapter1-introduction-to-ros2.md"
+        section:
+          type: string
+          description: Section name/title
+          example: "What is ROS 2?"
+        chunk_id:
+          type: string
+          description: Unique identifier for the content chunk
+          example: "344be95a-16bb-4abd-86eb-bfe157567263"
+        url:
+          type: string
+          description: Optional URL to cited content (relative or absolute)
+          example: "/docs/module1-ros2/chapter1-introduction-to-ros2"
+
+    ChatErrorResponse:
+      type: object
+      required:
+        - error
+        - code
+      properties:
+        error:
+          type: string
+          description: Human-readable error message
+          example: "Invalid sessionId format (expected UUID v4)"
+        code:
+          type: integer
+          description: HTTP status code
+          example: 400
+
+tags:
+  - name: Chat
+    description: RAG-powered chat endpoints
+
+externalDocs:
+  description: Backend Repository
+  url: https://github.com/Muhammad-Talha33/Physical-AI-Humanoid-Robotics-Textbook

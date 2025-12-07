@@ -35,6 +35,10 @@ const config: Config = {
     locales: ['en'],
   },
 
+  customFields: {
+    chatBackendUrl: 'https://physical-ai-humanoid-robotics-textbook-production-3516.up.railway.app',
+  },
+
   presets: [
     [
       'classic',
